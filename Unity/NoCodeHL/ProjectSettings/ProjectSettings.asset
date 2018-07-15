@@ -616,9 +616,11 @@ PlayerSettings:
     WindowsStoreApps:
       HumanInterfaceDevice: False
       InternetClient: False
-      InternetClientServer: False
-      PrivateNetworkClientServer: False
+      InternetClientServer: True
+      Microphone: False
+      PrivateNetworkClientServer: True
       SpatialPerception: True
+      WebCam: True
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
