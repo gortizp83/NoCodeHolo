@@ -42,9 +42,11 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: e32f0a7fe2a7abc4289bc3c0e8a2b558, type: 2}
   m_StaticBatchInfo:
@@ -57,6 +59,7 @@ MeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -101,6 +104,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &11423058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,7 +119,6 @@ MonoBehaviour:
   Profile: {fileID: 11400000, guid: a96c7e832944c124cb072aefca636aab, type: 2}
   TargetTransform: {fileID: 0}
   Renderer: {fileID: 0}
-  MeshFilter: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
