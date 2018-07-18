@@ -1001,6 +1001,8 @@ For ""New Browser"" to work, you need to assign NewWindowHandler to a handler of
 		HandleInput();
             if (UIHandler.MouseHasFocus)
             {
+                Zoom -= 0.5f;
+                Render();
                 //if (VRInputManager.GetButtonDown(VRHandSide.Right, VRButtonType.Grip))
                 //{
                 //    //Resize(1000, 1000);

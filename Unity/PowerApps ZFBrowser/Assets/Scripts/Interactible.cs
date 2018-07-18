@@ -29,7 +29,7 @@ public class Interactible : MonoBehaviour, IInputClickHandler {
 
     void IInputClickHandler.OnInputClicked(InputClickedEventData eventData)
     {
-        browser.forceClick();
+        //browser.forceClick();
         // Just performing a tagalong action
         if (interactibleAction != null)
         {
